@@ -1,0 +1,32 @@
+html,body{
+    height:100vh;
+}
+body{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: 
+    "a a a a a a a a a a a a"
+    "b b b c c c c c c c c c"
+    "d d d d d d d d d d d d";
+}
+
+
+.a{
+    background-color: red;
+    grid-area: a;
+    
+}
+.b{
+    background-color:green;
+    grid-area:b;
+    
+}
+.c{
+    background-color:blue;
+    grid-area:c;
+}
+.d{
+    background-color: yellow;
+    grid-area:d;
+}
