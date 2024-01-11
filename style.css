@@ -9,9 +9,9 @@
         /* display: grid; */
         /* this shothand of row and column */
         /* grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr; */
-        /* grid-template-columns: repeat(12,1fr) ;
-        grid-template-rows: 50px auto 50px; */
-        display: block;
+         grid-template-columns: repeat(12,1fr) ;
+        grid-template-rows: 50px auto 50px;
+
     }
 html,body{
     height: 100%;
@@ -41,7 +41,8 @@ body div:nth-child(4){
     background-color: var(--ColorFore);
     /* grid-area: d; */
 }
-/* body div:nth-child(5){
+
+body div:nth-child(5){
     background-color: var(--ColorOne);
 }
 body div:nth-child(6){
@@ -52,4 +53,10 @@ body div:nth-child(7){
 }
 body div:nth-child(8){
     background-color: var(--ColorFore);
-} */
+}
+body div:nth-child(9){
+    background-color: var(--ColorOne);
+}
+body div:nth-child(10){
+    background-color: var(--ColorTow);
+}
